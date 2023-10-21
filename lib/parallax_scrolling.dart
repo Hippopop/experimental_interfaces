@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           titleLarge: GoogleFonts.poppins(),
         ),
       ),
-      home: HomePage(),
+      home: const HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -85,7 +85,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.symmetric(
+          padding: const EdgeInsets.symmetric(
             vertical: 12,
             horizontal: 10,
           ),
@@ -98,19 +98,19 @@ class HomePage extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      MacControlButton(
+                      const MacControlButton(
                         color: Colors.red,
                         icon: Icons.close,
                       ),
                       5.width,
-                      MacControlButton(
+                      const MacControlButton(
                         icon: Icons.remove,
                         color: Colors.yellow,
                       ),
                       5.width,
                       Transform.rotate(
                         angle: -45,
-                        child: MacControlButton(
+                        child: const MacControlButton(
                           color: Colors.green,
                           icon: Icons.unfold_more,
                         ),
