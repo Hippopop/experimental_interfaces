@@ -28,48 +28,48 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  final restaurantList = const [
+  static const restaurantList = [
     RestaurantData(
       name: "Cafe Milano",
       location: "GEC Circle",
       imageUrl:
-          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1696489149180-bb53f8c38bdb?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzOHw2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
     RestaurantData(
       name: "La Delicia",
       location: "Agrabad",
       imageUrl:
-          "https://images.unsplash.com/photo-1564759224907-65b945ff0e84?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZCUyMHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+          "https://images.unsplash.com/photo-1696610101250-f5933d2f616c?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzM3w2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
     RestaurantData(
       name: "Capeccino Zone",
       location: "Lal Khan Bazaar",
       imageUrl:
-          "https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZvb2QlMjByZXN0YXVyYW50fGVufDB8fDB8fHww",
+          "https://images.unsplash.com/photo-1696789738783-0f972304597e?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE0OXw2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
     RestaurantData(
       name: "Bon apetit",
       location: "GEC Circle",
       imageUrl:
-          "https://images.unsplash.com/photo-1516554646385-7642248096d1?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZvb2QlMjByZXN0YXVyYW50fGVufDB8fDB8fHww",
+          "https://images.unsplash.com/photo-1694161097721-07985d7a61bd?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIxMHw2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
     RestaurantData(
       name: "Sunday Cuisine",
       location: "Tiger Pass",
       imageUrl:
-          "https://images.unsplash.com/photo-1585144570839-e429bb95ffb4?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGZvb2QlMjByZXN0YXVyYW50fGVufDB8fDB8fHww",
+          "https://images.unsplash.com/photo-1691414110536-a22e3bb38819?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIwN3w2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
     RestaurantData(
       name: "Cafe Milano",
       location: "GEC Circle",
       imageUrl:
-          "https://images.unsplash.com/photo-1569921894261-ecda0b2cc1af?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGZvb2QlMjByZXN0YXVyYW50fGVufDB8fDB8fHww",
+          "https://images.unsplash.com/photo-1695821449523-6929f4e61b6f?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIxNXw2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
     RestaurantData(
       name: "Cafe Milano",
       location: "GEC Circle",
       imageUrl:
-          "https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGZvb2QlMjByZXN0YXVyYW50fGVufDB8fDB8fHww",
+          "https://images.unsplash.com/photo-1696418799976-b079670f33de?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI0MHw2c01WalRMU2tlUXx8ZW58MHx8fHx8",
     ),
   ];
 
@@ -136,13 +136,11 @@ class HomePage extends StatelessWidget {
                     color: Colors.grey.shade200,
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      children: [
-                        6.height,
-                        for (RestaurantData i in restaurantList)
-                          RestaurantImagePortion(restaurantData: i),
-                      ],
+                  child: ListView.builder(
+                    itemCount: restaurantList.length,
+                    padding: const EdgeInsets.only(top: 12),
+                    itemBuilder: (c, i) => RestaurantImagePortion(
+                      restaurantData: restaurantList[i],
                     ),
                   ),
                 ),
@@ -301,13 +299,19 @@ class RestaurantParralaxImage extends StatefulWidget {
 }
 
 class _RestaurantParralaxImageState extends State<RestaurantParralaxImage> {
-  final imageKey = GlobalKey();
+  late final GlobalKey imageKey;
+  @override
+  void initState() {
+    super.initState();
+    imageKey = GlobalKey(debugLabel: widget.imageUrl);
+  }
 
   @override
   Widget build(BuildContext context) {
     return Positioned.fill(
       child: Flow(
         delegate: ParralaxFlowDelegate(
+            debug: widget.imageUrl == HomePage.restaurantList[2].imageUrl,
             imageKey: imageKey,
             imageContext: context,
             scrollState: Scrollable.of(context)),
@@ -324,11 +328,13 @@ class _RestaurantParralaxImageState extends State<RestaurantParralaxImage> {
 }
 
 class ParralaxFlowDelegate extends FlowDelegate {
+  final bool debug;
   final GlobalKey imageKey;
   final BuildContext imageContext;
   final ScrollableState scrollState;
 
   ParralaxFlowDelegate({
+    this.debug = false,
     required this.imageKey,
     required this.imageContext,
     required this.scrollState,
@@ -346,13 +352,28 @@ class ParralaxFlowDelegate extends FlowDelegate {
       imageWidget.size.centerLeft(Offset.zero),
     );
 
+    if (debug) {
+      print(
+        "Image postion on ScrollView : ${imageOffset.toString()}",
+      );
+    }
+
     /* Percentage overed by image in viewport */
     final viewport = scrollState.position.viewportDimension;
     final percentage = (imageOffset.dy / viewport).clamp(0, 1);
 
+    if (debug) {
+      print(
+        "Percentage in scrollview : $percentage",
+      );
+    }
     /* Calculate Vertical Alignment */
     final alignment = Alignment(0, percentage * 2 - 1);
-
+    if (debug) {
+      print(
+        "Alignment : ${alignment.toString()}",
+      );
+    }
     /* Calculate Sizes and draw */
     final restaurantWidgetSize = imageContext.size;
     final imageSize =
